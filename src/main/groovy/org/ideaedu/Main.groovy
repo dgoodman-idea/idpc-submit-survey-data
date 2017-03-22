@@ -245,7 +245,7 @@ public class Main {
 	 * @return A new RESTCourse that can be used in a RESTSurvey.
 	 */
 	private static buildRESTCourse() {
-		def restCourse = new RESTCourse(title: 'Intro to IDEA', number: 'IDEA 101', localCode: '0 234 67', time: 'MTWUF', days: '08:00')
+		def restCourse = new RESTCourse(title: 'Intro to IDEA', number: 'IDEA 101', localCode: '0 234 67', days: 'MTWUF', time: '08:00')
 		return restCourse
 	}
 
